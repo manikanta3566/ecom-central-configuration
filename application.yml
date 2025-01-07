@@ -13,3 +13,6 @@ eureka:
     service-url:
       defaultZone : http://localhost:8761/eureka/
 
+logging:
+  file:
+    name : /Users/mani/Documents/Projects/MICROSERVICES-2025/logs/app.log
