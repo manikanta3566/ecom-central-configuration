@@ -8,6 +8,12 @@ spring:
     hibernate:
       ddl-auto: update
 
+    security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8080/realms/springboot-microservices-realm/protocol/openid-connect/certs    
+
 eureka:
   client:
     service-url:
